@@ -4,7 +4,7 @@
 
 As a user I would like to be able to search for events, ideas, or comments containing a keyword or a set of keywords.
 
-### Defintion of Done
+### Definition of Done
 
 A search API endpoint is created. The endpoint should return a list of events, ideas, and comments where the supplied keyword(s) are mentioned.
 
@@ -27,21 +27,21 @@ GET /search?s={keyword(s)}
     "error": "Error message here", // if applicable
     "data": [
     	{
-    		"event_id": "7d9befba-db78-4e89-8127-06b036787be2",
+    		"event_id": 1,
     		"event_question": "What are the candidate's <em>strength</em>s and weaknesses?",
     		"search_score": 48.5
     	}
     	, {
-    		"event_id": "7d9befba-db78-4e89-8127-06b036787be2",
-    		"idea_id": "7d9befba-db78-4e89-8127-06b036787be3",
+    		"event_id": 1,
+    		"idea_id": 1,
     		"idea_content": "John's <em>strength</em> is in his ability to describe complex problem in simple terms ...",
     		"search_score": 36.5
     	}
 
 		// Only for bonus pts:
 		, {
-			"idea_id": "7d9befba-db78-4e89-8127-06b036787be3",
-			"comment_id": "7d9befba-db78-4e89-8127-06b036787be4",
+			"idea_id": 1,
+			"comment_id": 1,
 			"comment_content": "I agree those are his <em>strength<em>s. Furthermore ...",
 			"search_score": 10.0
 		}
