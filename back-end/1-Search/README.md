@@ -2,8 +2,11 @@
 
 ### Story
 
-As a consumer of the Search API endpoint, I would like to be able to search for a keyword or a set of keywords that may occur in any user generated text or content in an event: Event question, Idea content. (**For Bonus Pts: search for Comment content as well**).
+As a user I would like to be able to search for events, ideas, or comments containing a keyword or a set of keywords.
 
+### Defintion of Done
+
+A search API endpoint is created. The endpoint should return a list of events, ideas, and comments where the supplied keyword(s) are mentioned.
 
 ### API Requirements / Design
 
