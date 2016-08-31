@@ -54,8 +54,8 @@ GET /search?s={keyword(s)}
 - Preferred programming languages: Java, Go, JavaScript (Node.js)
 - If Java is chosen, app server is limited to Tomcat
 - Existing data is in a RDBMS. Please use the supplied [database.sql](https://github.com/POPInNow/coding-challenge/blob/master/back-end/1-Search/database.sql) file to seed your development database.
-- No contraint of technology or framework to use, but you need to factor in simplicity, agility and cost when choosing the solution.
+- No contraint on technology or framework to use, but you need to factor in simplicity, agility and cost when choosing the solution.
 
-### More bonus points
+### Bonus points
 - Integration and unit testing
 - Deployed in the cloud (AWS, Heroku, etc.)
