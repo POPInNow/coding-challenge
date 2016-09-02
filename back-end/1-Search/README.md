@@ -50,8 +50,9 @@ GET /search?s={keyword(s)}
 ```
 
 ### Constraints
-- You only have 4 hours to do this
-- Preferred programming languages: Java, Go, JavaScript (Node.js)
+- Make it the best you can with the limited information you have.
+- Spend no more than 4-6 hours total.
+- Preferred programming languages: Go, Java, JavaScript (Node.js)
 - If Java is chosen, app server is limited to Tomcat
 - Existing data is in a RDBMS. Please use the supplied [database.sql](https://github.com/POPInNow/coding-challenge/blob/master/back-end/1-Search/database.sql) file to seed your development database.
 - No contraint on technology or framework to use, but you need to factor in simplicity, agility and cost when choosing the solution.
